@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import { products } from "./data"; // Importe os dados dos produtos
@@ -13,16 +13,38 @@ const divStyle = {
 };
 
 const ProjectsSection = () => {
+  const [visibleInfo, setVisibleInfo] = useState(null); // Estado para o item que deve mostrar informações
+
+  const handleTouchStart = (id) => {
+    if (visibleInfo === id) {
+      setVisibleInfo(null); // Ocultar informações se já estiverem visíveis
+    } else {
+      setVisibleInfo(id); // Mostrar informações para o item clicado
+    }
+  };
+
+  const handleMouseEnter = (id) => {
+    setVisibleInfo(id);
+  };
+
+  const handleMouseLeave = () => {
+    setVisibleInfo(null);
+  };
+
   return (
     <>
       <h1 className="flex justify-center items-center text-5xl font-bold text-[#a6d232] drop-shadow-[0_1.8px_1.8px_rgba(139,69,19,1)] mt-24" id="projects">
         Estoque
       </h1>
-      <section
-        className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-32 mb-5"
-      >
+      <section className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-32 mb-5">
         {products.map((product) => (
-          <div key={product.id} className="group w-72 bg-[#A4D434] shadow-xl scale-100 rounded-xl duration-500 hover:scale-105">
+          <div
+            key={product.id}
+            className="group w-72 bg-[#A4D434] shadow-xl scale-100 rounded-xl duration-500 hover:scale-105"
+            onTouchStart={() => handleTouchStart(product.id)} // Usar onTouchStart para dispositivos móveis
+            onMouseEnter={() => handleMouseEnter(product.id)} // Usar onMouseEnter para desktop
+            onMouseLeave={handleMouseLeave} // Usar onMouseLeave para desktop
+          >
             <Slide className="rounded-xl" autoplay={false}>
               {product.images.map((slideImage, index) => (
                 <div key={index} className="h-80 w-72 object-cover rounded-t-xl">
@@ -43,7 +65,12 @@ const ProjectsSection = () => {
                 {product.title}
               </p>
               <ul>
-                <li className="text-[#572d15] font-bold text-[1px] invisible group-hover:visible group-hover:text-xs duration-300">
+                {/* Controla a visibilidade das informações com base no estado */}
+                <li
+                  className={`text-[#572d15] font-bold text-[1px] ${
+                    visibleInfo === product.id ? "visible text-xs" : "invisible"
+                  } duration-300`}
+                >
                   Técnica: {product.techniques}
                   <br />
                   {product.bodyColor} <br />
