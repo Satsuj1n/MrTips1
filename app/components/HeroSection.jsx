@@ -19,7 +19,7 @@ const HeroSection = () => {
         <video
             ref={videoRef}
             className="min-w-full min-h-full absolute object-cover"
-            src="/MR TIPS 0 (1).mp4" 
+            src="/video.mp4" 
             type="video/mp4"
             autoPlay
             muted
