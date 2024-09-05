@@ -16,10 +16,10 @@ const HeroSection = () => {
     <>
       <section className="relative h-screen flex flex-col items-center justify-center text-center text-white">
         <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
-          <video
+        <video
             ref={videoRef}
             className="min-w-full min-h-full absolute object-cover"
-            src="https://i.imgur.com/NgqHorB.mp4"
+            src="/MR TIPS 0 (1).mp4" 
             type="video/mp4"
             autoPlay
             muted
