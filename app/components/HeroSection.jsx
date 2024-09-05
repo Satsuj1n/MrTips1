@@ -19,7 +19,7 @@ const HeroSection = () => {
         <video
             ref={videoRef}
             className="min-w-full min-h-full absolute object-cover"
-            src="./images/video.mp4" 
+            src="https://res.cloudinary.com/dxllndqse/video/upload/v1725557539/MR_TIPS_0_1_qwp4xn.mp4?_s=public-apps" 
             type="video/mp4"
             autoPlay
             muted
