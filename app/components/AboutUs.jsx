@@ -44,7 +44,7 @@ const AboutUs = () => {
                 a Mr. Tips
               </span>
             </h2>
-            <p className="text-gray-200">
+            <p className="text-white">
               A Mr. Tips nasceu da paixão por piteiras de vidro e se tornou
               referência em designs únicos e qualidade excepcional. Atendemos
               tanto o varejo quanto o atacado, trabalhamos para grandes marcas e
