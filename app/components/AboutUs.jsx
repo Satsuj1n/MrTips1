@@ -20,7 +20,7 @@ const AboutUs = () => {
 
   return (
     <section>
-      <div className="sm:flex items-center max-w-screen-xl mt-24">
+      <div className="sm:flex items-center max-w-screen-xl mt-12">
         {/* Exibe a imagem somente se não for um dispositivo pequeno */}
         {!isSmallDevice && (
           <div className="sm:w-1/2 p-10">

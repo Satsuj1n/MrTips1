@@ -11,11 +11,11 @@ const navLinks = [
     path: "#aboutus",
   },
   {
-    title: "Coleções",
+    title: "Produtos",
     path: "#colecoes",
   },
   {
-    title: "Estoque",
+    title: "Modelos",
     path: "#projects",
   },
 ];

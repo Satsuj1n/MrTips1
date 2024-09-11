@@ -33,10 +33,13 @@ const ProjectsSection = () => {
 
   return (
     <>
-      <h1 className="flex justify-center items-center text-5xl font-bold text-[#a6d232] drop-shadow-[0_1.8px_1.8px_rgba(139,69,19,1)] mt-24" id="projects">
-        Estoque
+      <h1
+        className="flex justify-center items-center text-5xl font-bold text-[#a6d232] drop-shadow-[0_1.8px_1.8px_rgba(139,69,19,1)] mt-6"
+        id="projects"
+      >
+        Modelos
       </h1>
-      <section className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-32 mb-5">
+      <section className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-12 mb-5">
         {products.map((product) => (
           <div
             key={product.id}
@@ -47,7 +50,10 @@ const ProjectsSection = () => {
           >
             <Slide className="rounded-xl" autoplay={false}>
               {product.images.map((slideImage, index) => (
-                <div key={index} className="h-80 w-72 object-cover rounded-t-xl">
+                <div
+                  key={index}
+                  className="h-80 w-72 object-cover rounded-t-xl"
+                >
                   <div
                     style={{
                       ...divStyle,
@@ -65,26 +71,13 @@ const ProjectsSection = () => {
                 {product.title}
               </p>
               <ul>
-                {/* Controla a visibilidade das informações com base no estado */}
-                <li
-                  className={`text-[#572d15] font-bold text-[1px] ${
-                    visibleInfo === product.id ? "visible text-xs" : "invisible"
-                  } duration-300`}
-                >
+                <li className={`text-[#572d15] font-bold text-xs`}>
                   Técnica: {product.techniques}
                   <br />
                   {product.bodyColor} <br />
                   {product.thickness} <br />
                 </li>
               </ul>
-              <div className="flex items-center">
-                <p className="text-lg font-semibold text-[#572d15] cursor-auto my-3">
-                  R${product.price}
-                </p>
-                <del className="text-[#572d15]">
-                  <p className="text-sm text-[#572d15] cursor-auto ml-2">R${product.oldPrice}</p>
-                </del>
-              </div>
             </div>
           </div>
         ))}
