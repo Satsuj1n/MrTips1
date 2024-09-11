@@ -54,14 +54,12 @@ const ProjectsSection = () => {
                   key={index}
                   className="h-80 w-72 object-cover rounded-t-xl"
                 >
-                  <a href="https://wa.me/message/YNQCDX67BOR6N1">
-                    <div
-                      style={{
-                        ...divStyle,
-                        backgroundImage: `url(${slideImage.url})`,
-                      }}
-                    ></div>
-                  </a>
+                  <div
+                    style={{
+                      ...divStyle,
+                      backgroundImage: `url(${slideImage.url})`,
+                    }}
+                  ></div>
                 </div>
               ))}
             </Slide>
