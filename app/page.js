@@ -6,6 +6,7 @@ import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AboutUs from "./components/AboutUs";
+import Button from "./components/Button";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           <Colecoes />
           <AboutUs />
           <ProjectsSection />
+          <Button />
         </div>
         <Footer />
       </main>
