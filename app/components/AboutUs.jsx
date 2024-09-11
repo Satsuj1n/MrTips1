@@ -45,14 +45,17 @@ const AboutUs = () => {
               </span>
             </h2>
             <p className="text-gray-200">
-              A Mr. Tips nasceu da paixão por piteiras de vidro. Desde então, nos
-              tornamos referência em designs únicos e qualidade excepcional. De
-              artesãos locais a entusiastas internacionais, nossa loja une uma
-              comunidade de apreciadores de arte em vidro. Com variedade de
-              piteiras clássicas a criações personalizadas, oferecemos
-              sofisticação e estilo para todos os gostos. Nossa história é marcada
-              pela dedicação à excelência e ao serviço excepcional, conectando
-              amantes de piteiras em todo o mundo.
+              A Mr. Tips nasceu da paixão por piteiras de vidro e se tornou
+              referência em designs únicos e qualidade excepcional. Atendemos
+              tanto o varejo quanto o atacado, trabalhamos para grandes marcas e
+              lojistas com produtos de altíssima qualidade. De artesãos locais a
+              entusiastas internacionais, nossa loja une uma comunidade de
+              apreciadores de arte em vidro. Com uma ampla variedade de
+              piteiras, desde os modelos clássicos até criações personalizadas,
+              oferecemos sofisticação e estilo para todos os gostos. Nossa
+              história é marcada pela dedicação à excelência e ao serviço
+              impecável, estabelecendo conexões entre amantes de piteiras e
+              parceiros comerciais ao redor do mundo.
             </p>
           </div>
         </div>
