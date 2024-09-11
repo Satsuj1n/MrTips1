@@ -17,7 +17,10 @@ const Footer = () => {
           </div>
         </nav>
         <div class="mt-8 md:mb-8 flex justify-center space-x-6 md:order-3  ">
-          <a href="#" class="text-[#c5ff3f] hover:text-[#add64b]">
+          <a
+            href="https://wa.me/message/YNQCDX67BOR6N1"
+            class="text-[#c5ff3f] hover:text-[#add64b]"
+          >
             <FaWhatsapp />
           </a>
 

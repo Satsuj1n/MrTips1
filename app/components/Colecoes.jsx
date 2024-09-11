@@ -21,7 +21,7 @@ const Coleções = () => {
           <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
             {/*<!-- image - start -->*/}
             <a
-              href="#"
+              href="https://wa.me/message/YNQCDX67BOR6N1"
               class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
             >
               <img
@@ -39,7 +39,7 @@ const Coleções = () => {
 
             {/*<!-- image - start -->*/}
             <a
-              href="#"
+              href="https://wa.me/message/YNQCDX67BOR6N1"
               class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
             >
               <img
@@ -57,7 +57,7 @@ const Coleções = () => {
 
             {/*<!-- image - start -->*/}
             <a
-              href="#"
+              href="https://wa.me/message/YNQCDX67BOR6N1"
               class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
             >
               <img
@@ -75,7 +75,7 @@ const Coleções = () => {
 
             {/*<!-- image - start -->*/}
             <a
-              href="#"
+              href="https://wa.me/message/YNQCDX67BOR6N1"
               class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
             >
               <img
