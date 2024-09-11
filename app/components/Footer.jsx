@@ -24,7 +24,10 @@ const Footer = () => {
             <FaWhatsapp />
           </a>
 
-          <a href="#" class="text-[#c5ff3f] hover:text-[#add64b]">
+          <a
+            href="https://www.instagram.com/mrtipsbr/"
+            class="text-[#c5ff3f] hover:text-[#add64b]"
+          >
             <FaInstagram />
           </a>
         </div>
