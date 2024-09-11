@@ -24,11 +24,11 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed mx-auto top-0 left-0 right-0 z-20 bg-[#be703f] bg-opacity-100 ">
+    <nav className="fixed mx-auto top-0 left-0 right-0 z-20 bg-gradient-to-r from-amber-800 from-0% via-amber-500 via-30% to-lime-400 to-100%">
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-0 h-[90px]">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-[#a6d232] font-semibold"
+          className="text-2xl md:text-5xl text-[#834c24] font-semibold"
         >
           <img alt="logo" src="/images/logo.png" className="size-16" />
         </Link>
@@ -36,14 +36,14 @@ const Navbar = () => {
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
-              className="flex items-center px-3 py-2 border rounded border-[#834c24] text-[#a6d232] hover:text-white "
+              className="flex items-center px-3 py-2 border rounded border-[#834c24] text-[#834c24] hover:text-white "
             >
               <Bars3Icon className="h-5 w-5" />
             </button>
           ) : (
             <button
               onClick={() => setNavbarOpen(false)}
-              className="flex items-center px-3 py-2 border rounded border-[#a6d232] text-[#a6d232] hover:text-white "
+              className="flex items-center px-3 py-2 border rounded border-[#834c24] text-[#834c24] hover:text-white "
             >
               <XMarkIcon className="h-5 w-5" />
             </button>
