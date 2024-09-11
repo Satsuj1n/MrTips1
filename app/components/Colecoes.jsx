@@ -11,7 +11,7 @@ const Coleções = () => {
         <h1 className=" flex justify-center items-center text-center text-5xl font-bold text-[#a6d232] drop-shadow-[0_1.8px_1.8px_rgba(139,69,19,1)] sm:mb-6">
           Conheça Nossos Produtos
         </h1>
-        <h4 className="flex justify-center items-center font-bold text-[#a6d232] drop-shadow-[0_1.8px_1.8px_rgba(139,69,19,1)] sm:mb-6 pt-2">
+        <h4 className="flex justify-center items-center text-center font-bold text-[#a6d232] drop-shadow-[0_1.8px_1.8px_rgba(139,69,19,1)] sm:mb-6 pt-2">
           Artigos manufaturados produzidos com os melhores vidros disponíveis no
           mercado
         </h4>
