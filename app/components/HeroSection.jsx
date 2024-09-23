@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import MrTips from "./assets/MrTips.mp4";
+import MrTips from "../../public/images/MrTips.mp4";
 
 const HeroSection = () => {
   const videoRef = useRef(null);
