@@ -15,6 +15,7 @@
     "@splinetool/runtime": "^1.0.93",
     "animate.css": "^4.1.1",
     "animate.css-react": "^1.1.0",
+    "file-loader": "^6.2.0",
     "framer-motion": "^11.0.23",
     "my-portifolio": "file:",
     "next": "^14.2.13",
