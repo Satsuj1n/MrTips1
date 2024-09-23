@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
+import MrTips from "./assets/MrTips.mp4";
 
 const HeroSection = () => {
   const videoRef = useRef(null);
@@ -12,6 +13,7 @@ const HeroSection = () => {
     }
   }, []);
 
+  // Estado e lógica para alternar os textos
   const [currentH3, setCurrentH3] = useState(0);
 
   useEffect(() => {
@@ -29,7 +31,7 @@ const HeroSection = () => {
           <video
             ref={videoRef}
             className="min-w-full min-h-full absolute object-cover"
-            src="https://res.cloudinary.com/dxllndqse/video/upload/v1725557539/MR_TIPS_0_1_qwp4xn.mp4?_s=public-apps"
+            src={MrTips}
             type="video/mp4"
             autoPlay
             muted
@@ -38,9 +40,7 @@ const HeroSection = () => {
           ></video>
         </div>
         <div className="video-content space-y-2 z-10">
-          <h1 className="font-bold text-5xl text-[#a6d232] drop-shadow-[0_1.8px_1.8px_rgba(139,69,19,1)]">
-            Mr.Tips
-          </h1>
+          <h1 className="font-bold text-5xl text-[#a6d232] drop-shadow-[0_1.8px_1.8px_rgba(139,69,19,1)]">Mr.Tips</h1>
           <div className="block animate-text-slide leading-tight">
             <h3
               className={`lg:text-xl text-[#a6d232] drop-shadow-[0_1.8px_1.8px_rgba(139,69,19,1)] ${
@@ -69,4 +69,5 @@ const HeroSection = () => {
     </>
   );
 };
+
 export default HeroSection;
