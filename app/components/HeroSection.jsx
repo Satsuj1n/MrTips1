@@ -31,12 +31,13 @@ const HeroSection = () => {
           <video
             ref={videoRef}
             className="min-w-full min-h-full absolute object-cover"
-            src="https://res.cloudinary.com/dxllndqse/video/upload/v1725557539/MR_TIPS_0_1_qwp4xn.mp4?_s=public-apps"
+            src="https://res.cloudinary.com/dejeyvthn/video/upload/v1727208477/Mrtips._a_gqkvr9.mp4"
             type="video/mp4"
             autoPlay
             muted
             loop
             playsInline
+            preload="auto"
           ></video>
         </div>
         <div className="video-content space-y-2 z-10">
