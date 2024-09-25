@@ -11,7 +11,7 @@ import Button from "./components/Button";
 export default function Home() {
   return (
     <>
-      <main className="flex min-h-screen flex-col bg-[url('/images/fundo_teste.png')]">
+      <main className="flex min-h-screen flex-col bg-[url('/images/fundo_teste.png')] overflow-x-hidden">
         <Navbar />
         <HeroSection />
         <div className="container mx-auto px-12 py-2 mt-12 ">
