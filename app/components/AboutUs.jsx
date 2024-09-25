@@ -26,7 +26,7 @@ const AboutUs = () => {
           <div className="sm:w-1/2 p-10">
             <div className="image object-center text-center">
               <img
-                src="https://kingbong.com.br/media/wysiwyg/BongsFeitos3.webp"
+                src="https://i.imgur.com/g4YCIJo.png"
                 alt="Mr.Tips"
                 className="rounded-xl shadow-lg w-full h-full object-cover object-center transition duration-200 hover:scale-110"
               />

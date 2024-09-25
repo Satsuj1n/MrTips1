@@ -31,7 +31,7 @@ const HeroSection = () => {
           <video
             ref={videoRef}
             className="min-w-full min-h-full absolute object-cover"
-            src="https://res.cloudinary.com/dejeyvthn/video/upload/v1727208477/Mrtips._a_gqkvr9.mp4"
+            src="https://res.cloudinary.com/dxllndqse/video/upload/v1727276329/esflhxqyb84g23mfvtju.mp4"
             type="video/mp4"
             autoPlay
             muted
