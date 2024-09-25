@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import MrTips from "../../public/images/MrTips.mp4";
+
 
 const HeroSection = () => {
   const videoRef = useRef(null);
@@ -31,7 +31,7 @@ const HeroSection = () => {
           <video
             ref={videoRef}
             className="min-w-full min-h-full absolute object-cover"
-            src="https://res.cloudinary.com/dxllndqse/video/upload/v1727276329/esflhxqyb84g23mfvtju.mp4"
+            src="https://res.cloudinary.com/dejeyvthn/video/upload/v1727277967/jqsqpeexnu5fe6prnuwz.mp4"
             type="video/mp4"
             autoPlay
             muted
